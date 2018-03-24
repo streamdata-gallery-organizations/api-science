@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: api-science.api.streamdata.gallery
+title: Streamdata Gallery API Science
+url: api-science.streamdata.gallery
 tag: API Science
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: api-science
 github_branch: master
 collections:
