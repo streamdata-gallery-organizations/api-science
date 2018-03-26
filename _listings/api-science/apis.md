@@ -11,8 +11,8 @@ tags:
 - My API Stack
 - Monitoring
 - API LIfeycle
-created: "2018-03-24"
-modified: "2018-03-24"
+created: "2018-03-26"
+modified: "2018-03-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/apis.yaml
 specificationVersion: "0.14"
 apis:
