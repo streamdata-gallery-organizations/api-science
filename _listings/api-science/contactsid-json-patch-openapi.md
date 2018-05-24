@@ -3,9 +3,9 @@ swagger: "2.0"
 x-collection-name: API Science
 x-complete: 0
 info:
-  title: API Science Get All Monitors
+  title: API Science Update a Contact
   version: 1.0.0
-  description: Marks message as read.
+  description: Update a Contact
 schemes:
 - http
 produces:
@@ -98,25 +98,6 @@ paths:
           description: OK
       tags:
       - Contacts
-  /monitors:
-    get:
-      summary: Get All Monitors
-      description: Marks message as read.
-      operationId: getAllMonitors
-      x-api-path-slug: monitors-get
-      parameters:
-      - in: header
-        name: Authorization
-        description: Your API key must be included in all API requests to the server
-          in an Authorization HTTP header
-      - in: query
-        name: tags
-        description: Optionally filter monitors by tags
-      responses:
-        200:
-          description: OK
-      tags:
-      - Monitors
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

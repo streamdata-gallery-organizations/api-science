@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: API Science
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,9 +22,9 @@ apis:
   tags: Contacts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsjson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contacts-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsjson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contacts-json-get-openapi.md
 - name: API Science Create a Contact
   x-api-slug: api-science
   description: Create a Contact
@@ -34,9 +34,9 @@ apis:
   tags: Contacts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsjson-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contacts-json-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contacts-json-post-openapi.md
 - name: API Science Delete a Contact
   x-api-slug: api-science
   description: Delete a Contact
@@ -46,9 +46,9 @@ apis:
   tags: Contacts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsidjson-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsid-json-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsidjson-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsid-json-delete-openapi.md
 - name: API Science Get a Specific Contact
   x-api-slug: api-science
   description: Get a Specific Contact
@@ -58,9 +58,9 @@ apis:
   tags: Contacts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsidjson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsid-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsidjson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsid-json-get-openapi.md
 - name: API Science Update a Contact
   x-api-slug: api-science
   description: Update a Contact
@@ -70,9 +70,9 @@ apis:
   tags: Contacts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsidjson-patch-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsid-json-patch-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsidjson-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/contactsid-json-patch-openapi.md
 - name: API Science Get All Monitors
   x-api-slug: api-science
   description: Marks message as read.
@@ -130,9 +130,9 @@ apis:
   tags: Checks
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/monitorsidchecksjson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/monitorsidchecks-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/monitorsidchecksjson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/monitorsidchecks-json-get-openapi.md
 - name: API Science Performance Report
   x-api-slug: api-science
   description: Performance Report
@@ -202,9 +202,9 @@ apis:
   tags: Uptime
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/monitorsiduptimejson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/monitorsiduptime-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/monitorsiduptimejson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/monitorsiduptime-json-get-openapi.md
 - name: API Science List All Tags
   x-api-slug: api-science
   description: List All Tags

@@ -18,7 +18,7 @@ paths:
       summary: Get All Contacts
       description: Get All Contacts
       operationId: getAllContacts
-      x-api-path-slug: contactsjson-get
+      x-api-path-slug: contacts-json-get
       responses:
         200:
           description: OK
@@ -28,7 +28,7 @@ paths:
       summary: Create a Contact
       description: Create a Contact
       operationId: createContact
-      x-api-path-slug: contactsjson-post
+      x-api-path-slug: contacts-json-post
       parameters:
       - in: formData
         name: label
@@ -50,7 +50,7 @@ paths:
       summary: Delete a Contact
       description: Delete a Contact
       operationId: deleteContact
-      x-api-path-slug: contactsidjson-delete
+      x-api-path-slug: contactsid-json-delete
       parameters:
       - in: path
         name: id
@@ -64,7 +64,7 @@ paths:
       summary: Get a Specific Contact
       description: Get a Specific Contact
       operationId: getContact
-      x-api-path-slug: contactsidjson-get
+      x-api-path-slug: contactsid-json-get
       parameters:
       - in: path
         name: id
@@ -78,7 +78,7 @@ paths:
       summary: Update a Contact
       description: Update a Contact
       operationId: updateContact
-      x-api-path-slug: contactsidjson-patch
+      x-api-path-slug: contactsid-json-patch
       parameters:
       - in: path
         name: id
@@ -161,7 +161,7 @@ paths:
       summary: Get Checks For A Monitor
       description: Get Checks For A Monitor
       operationId: getChecksForAMonitor
-      x-api-path-slug: monitorsidchecksjson-get
+      x-api-path-slug: monitorsidchecks-json-get
       parameters:
       - in: query
         name: count
@@ -285,7 +285,7 @@ paths:
       summary: Uptime Report
       description: Uptime Report
       operationId: uptimeReport
-      x-api-path-slug: monitorsiduptimejson-get
+      x-api-path-slug: monitorsiduptime-json-get
       parameters:
       - in: query
         name: end

@@ -3,9 +3,9 @@ swagger: "2.0"
 x-collection-name: API Science
 x-complete: 0
 info:
-  title: API Science Get All Monitors
+  title: API Science Delete a Contact
   version: 1.0.0
-  description: Marks message as read.
+  description: Delete a Contact
 schemes:
 - http
 produces:
@@ -60,63 +60,6 @@ paths:
           description: OK
       tags:
       - Contacts
-    get:
-      summary: Get a Specific Contact
-      description: Get a Specific Contact
-      operationId: getContact
-      x-api-path-slug: contactsid-json-get
-      parameters:
-      - in: path
-        name: id
-        description: The ID of the contact to retrieve
-      responses:
-        200:
-          description: OK
-      tags:
-      - Contacts
-    patch:
-      summary: Update a Contact
-      description: Update a Contact
-      operationId: updateContact
-      x-api-path-slug: contactsid-json-patch
-      parameters:
-      - in: path
-        name: id
-        description: ID for the contact
-      - in: formData
-        name: label
-        description: User-defined label for this contact
-      - in: formData
-        name: type
-        description: 'Type of contact, options are: email, url, pagerduty'
-      - in: query
-        name: value
-        description: 'Contents of value vary based on the type of contact being created:
-          an email address, a URL or your PagerDuty API key'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Contacts
-  /monitors:
-    get:
-      summary: Get All Monitors
-      description: Marks message as read.
-      operationId: getAllMonitors
-      x-api-path-slug: monitors-get
-      parameters:
-      - in: header
-        name: Authorization
-        description: Your API key must be included in all API requests to the server
-          in an Authorization HTTP header
-      - in: query
-        name: tags
-        description: Optionally filter monitors by tags
-      responses:
-        200:
-          description: OK
-      tags:
-      - Monitors
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
