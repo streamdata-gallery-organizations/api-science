@@ -5,7 +5,7 @@ description: This is a repository of api science APIs, self-contained as a Githu
   operations.
 image: http://template.streamdata.gallery/assets/api-science.png
 created: "2018-02-24"
-modified: "2018-05-24"
+modified: "2018-06-19"
 url: http://api-science.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []

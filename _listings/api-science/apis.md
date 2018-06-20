@@ -6,10 +6,10 @@ description: Traditional monitoring services were designed long before APIs beca
   APIs. Sure, we understand REST, JSON, OAuth, XML. No problem.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: API Science
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-06-19"
+modified: "2018-06-19"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/api-science/master/_listings/api-science/apis.md
 specificationVersion: "0.14"
 apis:
@@ -17,7 +17,7 @@ apis:
   x-api-slug: api-science
   description: Get All Contacts
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///contacts.json
   tags: Contacts
   properties:
@@ -29,7 +29,7 @@ apis:
   x-api-slug: api-science
   description: Create a Contact
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///contacts.json
   tags: Contacts
   properties:
@@ -41,7 +41,7 @@ apis:
   x-api-slug: api-science
   description: Delete a Contact
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///contacts/{id}.json
   tags: Contacts
   properties:
@@ -53,7 +53,7 @@ apis:
   x-api-slug: api-science
   description: Get a Specific Contact
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///contacts/{id}.json
   tags: Contacts
   properties:
@@ -65,7 +65,7 @@ apis:
   x-api-slug: api-science
   description: Update a Contact
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///contacts/{id}.json
   tags: Contacts
   properties:
@@ -77,7 +77,7 @@ apis:
   x-api-slug: api-science
   description: Marks message as read.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitors
   tags: Monitors
   properties:
@@ -89,7 +89,7 @@ apis:
   x-api-slug: api-science
   description: Create a Monitor
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitors
   tags: Monitors
   properties:
@@ -101,7 +101,7 @@ apis:
   x-api-slug: api-science
   description: Apply Actions to Multiple Monitors
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitors
   tags: Monitors
   properties:
@@ -113,7 +113,7 @@ apis:
   x-api-slug: api-science
   description: Get a Specific Monitor
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitors/{id}
   tags: Monitors
   properties:
@@ -125,7 +125,7 @@ apis:
   x-api-slug: api-science
   description: Get Checks For A Monitor
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitors/{id}/checks.json
   tags: Checks
   properties:
@@ -137,7 +137,7 @@ apis:
   x-api-slug: api-science
   description: Performance Report
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitors/{id}/performance
   tags: Performance
   properties:
@@ -149,7 +149,7 @@ apis:
   x-api-slug: api-science
   description: Show a Monitors Templates
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitors/{id}/templates
   tags: Templates
   properties:
@@ -161,7 +161,7 @@ apis:
   x-api-slug: api-science
   description: Get a Template
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitors/{id}/templates/{templates]
   tags: Templates
   properties:
@@ -173,7 +173,7 @@ apis:
   x-api-slug: api-science
   description: Create a Template
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitors/{id}/templates/{templates]
   tags: Templates
   properties:
@@ -185,7 +185,7 @@ apis:
   x-api-slug: api-science
   description: Testing your Monitor
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitors/{id}/test
   tags: Monitors
   properties:
@@ -197,7 +197,7 @@ apis:
   x-api-slug: api-science
   description: Uptime Report
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitors/{id}/uptime.json
   tags: Uptime
   properties:
@@ -209,7 +209,7 @@ apis:
   x-api-slug: api-science
   description: List All Tags
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///tags
   tags: Tags
   properties:
@@ -221,7 +221,7 @@ apis:
   x-api-slug: api-science
   description: Returns a list of all contacts.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: |-
     https:////
         /api/{version}/contacts
@@ -235,7 +235,7 @@ apis:
   x-api-slug: api-science
   description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///inventory/tags
   tags: Tags
   properties:
@@ -245,7 +245,7 @@ apis:
   x-api-slug: api-science
   description: Create a new monitor.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitors
   tags: Monitors
   properties:
@@ -257,7 +257,7 @@ apis:
   x-api-slug: api-science
   description: Update an existing monitor
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitors/{monitor_id}
   tags: Monitors
   properties:
@@ -269,7 +269,7 @@ apis:
   x-api-slug: api-science
   description: Activate a suspended monitor
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitors/activate/{monitor_id}
   tags: Monitors
   properties:
@@ -281,7 +281,7 @@ apis:
   x-api-slug: api-science
   description: Poll a monitor.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitor/poll_now/{monitor_id}
   tags: Monitors
   properties:
@@ -295,7 +295,7 @@ apis:
     core to modern applications. API Science is designed specifically for monitoring
     APIs. Sure, we understand REST, JSON, OAuth, XML. No problem.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https:///
   tags: API Science
   properties:
@@ -318,6 +318,8 @@ x-common:
   url: https://www.apiscience.com/terms
 - type: x-twitter
   url: https://twitter.com/APIScience
+- type: x-website
+  url: http://apiscience.com
 - type: x-website
   url: http://www.apiscience.com/
 include: []
